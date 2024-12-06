@@ -1,0 +1,100 @@
+body{
+    background-image: url(GRID_TABLAZAT/kepek/hatter.jpg);
+    background-size: 50% auto;
+    margin: 0px;
+}
+header{
+    background-image: url(GRID_TABLAZAT/kepek/fejlec.jpg);
+    text-align: center;
+    margin: 0px;
+}
+main{
+    background-color: white;
+    width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+}
+footer{
+    background-color: rgb(39, 143, 212);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.tParosSor{
+    background-color: rgb(152, 218, 238);
+}
+nav > ul > li{
+    background-color: rgb(39, 143, 212);
+}
+article table tr td{
+    border-bottom: solid rgb(39, 143, 212) 2px;
+    padding: 0%;
+}
+article table tr th{
+    border-bottom: solid rgb(39, 143, 212) 2px;
+    padding: 0%;
+}
+table{
+    border-collapse:collapse;
+    border-spacing: 0px;
+}
+td{
+    padding: 8px;
+    border-bottom: 5px solid rgb(39, 143, 212);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+aside{
+    border: solid gray 1px;
+    padding: 20px;
+}
+nav ul li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15%;
+    padding-right: 15%;
+    border: solid white 2px;
+    border-radius: 15px;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+.kepDiv{
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border: 1px solid gray;
+}
+img{
+    width: 100%;
+}
+.gr2kepegymasmelle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+nav{
+    padding: 10px;
+}
+ul{
+    padding-inline-start: 0%;
+}
+.galeriaP{
+    text-align: justify;
+}
+h1{
+    color: white;
+    margin: 0px;
+}
+article{
+    padding: 10px;
+}
